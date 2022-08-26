@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 45px;
+}
+h3{
+    font-size: 35px;
+}
+span{
+    margin-top: 25px;
+}
+h5{
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock-box{
+    background-color: #001200;
+    color: white;
+    border-radius: 6px;
+    padding: 50px;
+}
+.container .clock-section{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
